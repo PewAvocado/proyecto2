@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr); 
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    
+}
+
+.cuadro {
+    border: 1px solid #b8bdb1;
+    background-color: rgb(226, 54, 11);
+}
