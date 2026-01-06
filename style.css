@@ -1,20 +1,28 @@
 body{
-    margin: 0;
-
+    margin: 20px;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 #contenedor {
     display: grid;
     grid-template-columns: repeat(16, 1fr); 
-    width: 500px;
-    height: 500px;
-    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    border: 1px solid rgb(255, 255, 255);
+    gap: 1px;
     
 }
 
-.cuadro {
-    border: 1px solid #b8bdb1;
+.cuadrito {
+   
     background-color: rgb(226, 54, 11);
+}
+.cuadro:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#dimension{
+    text-align: center;
 }
